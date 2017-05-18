@@ -1,4 +1,4 @@
-import { Ticket } from "./ticket";
+import { Ticket } from "./tickets/ticket";
 
 export interface ITicketFactory {
   GetCheapTicket(): Ticket;
